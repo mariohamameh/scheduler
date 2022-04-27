@@ -19,13 +19,14 @@ export default function Form(props) {
       console.log("Student name cannot be blank");
       return;
     }
-    
+
     props.onSave(student, interviewer);
   }
+
   return (
     <main className="appointment__card appointment__card--create">
       <section className="appointment__card-left">
-        <form onSubmit={event => event.preventDefault()} autoComplete="off">
+        <form onSubmit={(event) => event.preventDefault()} autoComplete="off">
           <input
             className="appointment__create-input text--semi-bold"
             name="name"

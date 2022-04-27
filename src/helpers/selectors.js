@@ -1,5 +1,3 @@
-const { default: Appointment } = require("components/Appointment");
-
 export function getAppointmentsForDay(state, day) {
   let onDay = state.days.filter((d) => d.name === day)[0];
   if (!onDay) {
