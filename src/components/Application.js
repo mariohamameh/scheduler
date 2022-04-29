@@ -9,13 +9,14 @@ import {
 } from "helpers/selectors";
 import useApplicationData from "hooks/useApplicationData";
 
+//creating states and functions
 export default function Application(props) {
   const { state, setDay, bookInterview, cancelInterview } =
     useApplicationData();
 
   const appointments = getAppointmentsForDay(state, state.day);
   const interviewers = getInterviewersForDay(state, state.day);
-
+  //creating appointments with all its props
   const schedule = appointments.map((appointment) => {
     return (
       <Appointment

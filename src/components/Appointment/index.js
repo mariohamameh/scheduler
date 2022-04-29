@@ -9,6 +9,7 @@ import Error from "./Error";
 import useVisualMode from "hooks/useVisualMode";
 import Confirm from "./Confirm";
 
+//modes to navigate between
 const EMPTY = "EMPTY";
 const SHOW = "SHOW";
 const CREATE = "CREATE";
