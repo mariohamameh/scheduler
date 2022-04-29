@@ -19,6 +19,7 @@ Both servers run concurrently; requests are proxied from the Webpack development
 
 ![Screen Shot 2022-04-29 at 2 04 21 AM](https://user-images.githubusercontent.com/96452610/165893646-36daf9d6-12b9-4e17-9daa-0a29be172aed.png)
 
+![Screen Shot 2022-04-29 at 2 02 37 AM](https://user-images.githubusercontent.com/96452610/165893743-e5a43eda-cbf0-43f5-910a-0b864701a47b.png)
 
 
 ## Setup
