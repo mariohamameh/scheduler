@@ -2,7 +2,7 @@
 
 The Scheduler client application created using React framework. Express is the basis for the Scheduler API server application.
 
-Both servers run concurrently; requests are proxied from the Webpack development server to the API server.
+Both servers run concurrently; requests are proxied from the Webpack development server to the API server.m
 
 
 ![Screen Shot 2022-04-29 at 2 05 00 AM](https://user-images.githubusercontent.com/96452610/165893003-7abb0f8f-5222-4e05-bff9-f9fcc797064a.png)
