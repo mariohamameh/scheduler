@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-The Scheduler client application created using React framework. Express is the basis for the Scheduler API server application.:
+The Scheduler client application created using React framework. Express is the basis for the Scheduler API server application.::
 
 Both servers run concurrently; requests are proxied from the Webpack development server to the API server.
 
